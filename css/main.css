@@ -1,0 +1,680 @@
+/* matthew raupp - interaction 2 - project 1 */
+
+/* ----- global styles -----  */
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/*uncommentting this rule forces all divs to temp have a border*/
+/*div {border: red solid thin;}*/
+
+#wrapper {
+    width: 350px;
+    margin: auto;
+
+
+}
+
+img {
+    margin-left: 25px;
+    ;
+}
+
+/* ----- project index page styles ----- */
+/*index*/
+h1 {
+
+    font-family: vollkorn, serif;
+
+    font-weight: 700;
+
+    font-style: italic;
+
+    font-size: 8vw;
+}
+
+h2 {
+
+
+    font-family: vollkorn, serif;
+
+    font-weight: 100;
+
+    font-size: 12pt;
+}
+
+h3 {
+
+    font-family: vollkorn, serif;
+
+    font-weight: 700;
+
+    font-style: italic;
+    font-size: 19pt;
+}
+
+p {
+
+    font-family: vollkorn, serif;
+
+    font-weight: 100;
+
+    font-size: 8pt;
+}
+
+ul {
+
+    font-family: vollkorn, serif;
+
+    font-weight: 200;
+
+    font-size: 10pt;
+}
+
+a {
+    color: #d32531;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* ----- type legibility Pre ----- */
+#template1 {
+    background-color: pink;
+    position: fixed;
+}
+
+type1title {
+
+    font-family: abril-fatface, serif;
+    font-weight: 400;
+    font-style: italic;
+    letter-spacing: 1.2pt;
+    font-size: 36pt;
+    margin-top: 190px;
+    padding-left: 32px;
+    position: absolute;
+    z-index: 1;
+    color: black;
+}
+
+
+
+type1subhead {
+    font-family: vollkorn, serif;
+    font-size: 14pt;
+    margin-top: 366px;
+    margin-left: 84px;
+    margin-right: 48px;
+    background-color: yellow;
+    position: fixed;
+    padding-top: 5px;
+    padding-left: 13px;
+    padding-right: 8px;
+    padding-bottom: 10px;
+    z-index: 100;
+    width: 250px;
+
+}
+
+/* ----- type legibility ----- */
+
+
+/* ----- type ascii ----- */
+.type2callout {
+    font-family: acumin pro condensed;
+    font-weight: 700;
+    position: fixed;
+    margin-top: 15px;
+    margin-left: 15px;
+    font-size: 40pt;
+    color: #262223;
+
+}
+
+.ascii {
+    font-family: acumin-pro;
+    position: fixed;
+    margin-top: 60px;
+    margin-left: 8px;
+    font-size: 50pt;
+    color: #BFBFBF;
+    z-index: -1;
+}
+
+.ascii:hover {
+    margin-left: 48px;
+    transition: 3s;
+}
+
+#template2 {
+    background-color: #F2F2F2;
+    width: 350px;
+    height: 350px;
+    border: 1px solid grey;
+    position: absolute;
+    /* vertical center */
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+
+
+type2title,
+type2callout,
+li {
+    color: #262223;
+}
+
+/* ----- type webfont ----- */
+.quotep3 {
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10pt;
+    font-family: vollkorn, serif;
+    font-weight: 700;
+    font-size: 20pt;
+}
+
+
+
+
+.namep3 {
+    margin-left: 38pt;
+    font-family: vollkorn, serif;
+    margin-top: 5px;
+}
+
+
+
+
+.bodyp3 {
+    opacity: 45%;
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5pt;
+    font-size: 11pt
+}
+
+#template3 {
+    background-color: #D92D07;
+    position: fixed;
+    z-index: -1;
+
+}
+
+type3title {
+    font-family: abril-fatface, serif;
+    font-weight: 400;
+    font-style: italic;
+    letter-spacing: 1.2pt;
+    font-size: 46pt;
+    color: #F2B749;
+    line-height: 55px;
+    margin-top: 170px;
+    position: absolute;
+    margin-left: 5px;
+}
+
+type3title:hover {
+    transform: skewX(-2deg);
+    transition: 5s;
+}
+
+.type3subhead {
+    font-family: vollkorn, serif;
+    font-size: 16pt;
+    padding-left: 480px;
+    background-color: yellow;
+
+}
+
+type3p {
+    font-family: vollkorn, serif;
+    font-size: 12pt;
+}
+
+.type3callout {
+    font-family: abril-fatface, serif;
+    font-weight: 400;
+    font-style: italic;
+
+}
+
+/* ----- image transparency ----- */
+#template4 {
+    background-color: #A0D9D9;
+    position: fixed;
+    z-index: -1;
+    position: absolute;
+
+}
+
+.transparentimage {
+    opacity: 0.5;
+    z-index: 1;
+    position: absolute;
+    margin-top: 75px;
+    margin-left: 45px;
+}
+
+titletransparent {
+    color: #F25041;
+    font-size: 40pt;
+    position: fixed;
+    opacity: .7;
+    font-family: gin;
+    margin-top: 200px;
+    z-index: 2;
+    margin-left: 25px;
+    line-height: 68px;
+}
+
+subheadtransparent {
+    position: fixed;
+    color: darkblue;
+    font-family: acumin pro condensed;
+    font-weight: 600;
+    margin-top: 400px;
+    font-size: 30pt;
+    margin-left: 20px;
+    opacity: .5;
+}
+
+.around {
+    font-size: 80pt;
+    margin-left: 20px;
+}
+
+.around:hover {
+    font-style: italic;
+    transition: 1s;
+}
+
+/* ----- image reveal ----- */
+#template5 {
+    background-color: #A65D03;
+    z-index: -1;
+    position: absolute;
+    font-family: hobeaux;
+}
+
+textPath {
+    font-family: hobeaux;
+    font-size: 80pt;
+}
+
+text {
+    fill: #BF7E04;
+    font-family: hobeaux;
+    position: fixed;
+    margin-top: 400px;
+    font-size: 80pt;
+    z-index: 2;
+}
+
+textreveal {
+    color: #BF7E04;
+    font-family: hobeaux;
+    position: fixed;
+    margin-top: 400px;
+    font-size: 70pt;
+    z-index: 2;
+}
+
+.imgreveal {
+    margin-left: 60px;
+    margin-top: 255px;
+    position: fixed;
+    opacity: 0;
+}
+
+.imgreveal:hover {
+    opacity: 1;
+    transition: .5s;
+    margin-top: 240px;
+
+}
+
+path {
+    fill: transparent;
+}
+
+/* ----- image repetition ----- */
+
+#template6 {
+    color: aliceblue;
+}
+
+
+/* ----- color gradation ----- */
+#template7 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, #73020C, #F2B749, #F27507, #FFDC18, #D92D07);
+    background-size: 600% 100%;
+    animation: gradient 16s linear infinite;
+    animation-direction: alternate;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0%
+    }
+
+    100% {
+        background-position: 100%
+    }
+}
+
+goodtimes {
+    color: white;
+    font-family: hobeaux;
+    position: fixed;
+    font-size: 70pt;
+    z-index: 2;
+    align-content: center;
+    text-align: center;
+    margin-top: 25px;
+}
+
+/* ----- color animation  ----- */
+@keyframes example {
+    from {
+        background-color: maroon;
+    }
+
+    to {
+        background-color: yellow;
+    }
+}
+
+#template8 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    animation-name: example;
+    animation-duration: 4s;
+    background-color: #F27507;
+
+}
+
+subheadanimation {
+    font-family: amador;
+    font-size: 60pt;
+    z-index: 2;
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 15px;
+    color: #F27507;
+}
+
+
+@keyframes example {
+    from {
+        background-color: #73020C;
+    }
+
+    to {
+        background-color: #F27507;
+    }
+}
+
+
+@keyframes example {
+    from {
+        background-color: #73020C;
+    }
+
+    to {
+        background-color: #F27507;
+    }
+}
+
+/* ----- color rgba ----- */
+#template9 {
+    position: absolute;
+    background-color: #262526;
+    background-image:
+        -moz-linear-gradient(45deg, #000 25%, transparent 25%),
+        -moz-linear-gradient(-45deg, #000 25%, transparent 25%),
+        -moz-linear-gradient(45deg, transparent 75%, #000 75%),
+        -moz-linear-gradient(-45deg, transparent 75%, #000 75%);
+    background-image:
+        -webkit-gradient(linear, 0 100%, 100% 0, color-stop(.25, #000), color-stop(.25, transparent)),
+        -webkit-gradient(linear, 0 0, 100% 100%, color-stop(.25, #000), color-stop(.25, transparent)),
+        -webkit-gradient(linear, 0 100%, 100% 0, color-stop(.75, transparent), color-stop(.75, #000)),
+        -webkit-gradient(linear, 0 0, 100% 100%, color-stop(.75, transparent), color-stop(.75, #000));
+
+    -moz-background-size: 100px 100px;
+    background-size: 100px 100px;
+    -webkit-background-size: 100px 101px;
+    z-index: -20;
+}
+
+.goldhands {
+    margin-top: 220px;
+    margin-left: 18px;
+    z-index: 0;
+    position: fixed;
+    opacity: .6;
+}
+
+subheadrgba,
+subsubheadrgba {
+    font-family: amador;
+    font-size: 50pt;
+    z-index: 2;
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 25px;
+}
+
+subheadrgba {
+    color: rgba(200, 10, 0, 1);
+    margin-top: 170px;
+    margin-left: 32px;
+
+}
+
+subsubheadrgba {
+    position: absolute;
+    margin-top: 370px;
+    font-size: 60pt;
+    color: rgba(300, 184, 4, 2);
+}
+
+/* ----- space positioning ----- */
+#template10 {
+    position: absolute;
+    background: rgba(200, 10, 0, 1);
+}
+
+heart-shape {
+    color: white;
+    margin-top: 160px;
+    margin-left: 170px;
+    position: absolute;
+    font-family: monospace;
+    font-weight: 600;
+    font-size: 12pt;
+    letter-spacing: -20px;
+    animation-name: heartshape;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes heartshape {
+    from {
+        transform: scale(1)
+    }
+
+    to {
+        transform: scale(1.30)
+    }
+}
+
+/* ----- space z-index ----- */
+
+#template11 {
+    position: fixed;
+    color: lavender;
+}
+
+
+
+missyou {
+    color: #F25041;
+    font-size: 67pt;
+    position: fixed;
+    font-family: gin;
+    margin-top: 250px;
+    z-index: 2;
+    margin-left: 17px;
+    line-height: 68px;
+
+}
+
+missyousubhead {
+    color: #F25041;
+    font-size: 15pt;
+    position: fixed;
+    font-family: gin;
+    margin-top: -65px;
+    z-index: 3;
+    margin-left: 133px;
+    line-height: 220px;
+}
+
+.vintagebicycle {
+    opacity: .4;
+    z-index: 0;
+}
+
+.vintagebicycle2 {
+    opacity: .1;
+    z-index: 0;
+    margin-top: -100px;
+    margin-left: 70px;
+}
+
+/* ----- space zoom ----- */
+
+#template12 {
+    position: absolute;
+    font-family: gin;
+    font-size: 22pt;
+    color: antiquewhite;
+    background-color: red;
+    text-align: center;
+    line-height: 6.6;
+    margin-top: -29px;
+}
+
+text {
+    position: absolute;
+    font-family: gin;
+    font-size: 22pt;
+    color: antiquewhite;
+    text-align: center;
+    line-height: 99px;
+    margin-top: -75px;
+    margin-left: 35px;
+}
+
+.img-magnifier-container {
+
+    margin-top: 30vh;
+    position: relative;
+    opacity: .8;
+}
+
+.img-magnifier-glass {
+    position: absolute;
+    border: 3px solid #000;
+    border-radius: 50%;
+    cursor: none;
+    /*Set the size of the magnifier glass:*/
+    width: 80px;
+    height: 80px;
+}
+
+dot {
+    position: fixed;
+    margin-top: 190px;
+    margin-left: -15px;
+}
+
+/* ----- project index page styles ----- */
+
+#index {
+    background-color: ghostwhite;
+}
+
+#index #wrapper {
+    width: 50%;
+    height: 100vh;
+    padding: 50px;
+}
+
+#index #title, ul {
+    padding-bottom: 30px;
+}
+
+#index ul li {
+    list-style:decimal-leading-zero
+}
+/* -----  project template  ----- */
+#template,
+#template1,
+#template2,
+#template3,
+#template4,
+#template5,
+#template6,
+#template7,
+#template8,
+#template9,
+#template10,
+#template11,
+#template12 {
+    width: 350px;
+    height: 350px;
+    border: 1px solid grey;
+
+    /* vertical center */
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+
+/* ----- project typelegibility page styles ----- */
+
+
+
+
+
+span {
+    font-style: normal;
+    font-weight: 100;
+    letter-spacing: 5px;
+
+}
+
+
+
+
+
+
+
+/* -----  week 2 styles  ----- */
