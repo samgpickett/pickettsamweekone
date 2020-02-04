@@ -14,8 +14,6 @@
 #wrapper {
     width: 350px;
     margin: auto;
-
-
 }
 
 img {
@@ -614,6 +612,267 @@ dot {
     margin-left: -15px;
 }
 
+/* ----- youtube rhythm ----- */
+.youtuberhythm {
+    position: fixed;
+    margin-top: 140px;
+    margin-left: 35px;
+    opacity: .3;
+    animation-name: youtuberhythm;
+    animation-iteration-count: 1;
+    animation-delay: 1s;
+    animation-duration: 10s;
+    line-height: 55px;
+   
+}
+@keyframes youtuberhythm {
+    from {
+        z-index: 4; 
+    }
+    to {   
+    z-index: 4;
+    opacity: 1;
+    width: 350px;
+    height:220px;
+    margin-left: 0px;
+    
+    }
+}
+#template13 {
+    position: fixed;
+    background-color: #0F0F0F;
+}
+
+creepy {
+    text-align: center;
+    position: fixed;
+    margin-left: 35px;
+    width: 280px;
+    margin-top: 30px;
+    color: ghostwhite;
+    font-family: omnes-pro, sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 20pt;
+    letter-spacing: 5px;
+    z-index: 2;
+    
+    
+}
+
+.wife {
+    font-size: 12pt;
+
+}
+
+.there {
+    font-size: 60pt;
+}
+
+/* ----- map personality ----- */
+#template14 {
+    position: fixed;
+}
+
+pay {
+    font-family: gin;
+    font-size: 26pt;
+    z-index: 2;
+    position: fixed;
+    font-size: 36pt;
+    text-align: center;
+    margin-top: 180px;
+    color: #DD4B3E; 
+}
+pay:hover{
+    margin-top: 230px;
+    transition: 10s;
+}
+/* ----- gif meme ----- */
+#template15 {
+    position: fixed;
+    background-color: black;
+}
+.come {
+    margin-top: 40px;
+    margin-left: -40px;
+    opacity: .6;
+    z-index: 1;
+}
+fullnight {
+    color:red;
+    font-family: omnes-pro, sans-serif;
+    font-size: 40pt;
+    position: fixed;
+    width: 250px;
+    margin-left: 180px;
+    margin-top: 40px;
+    animation-name: fullnight;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    line-height: 55px;
+    z-index: 4;
+}
+@keyframes fullnight {
+ from {
+        letter-spacing: 0px;
+        opacity: 1;
+    }
+
+    to {
+        letter-spacing: 6px;
+        opacity: .2;
+    }  
+   
+}
+
+/* ----- gif loop ----- */
+#template16 {
+    position: fixed;
+    background-color: black;
+}
+.walking { 
+    margin-top: 20px;
+    animation-name: walk;
+    animation-duration: 8s;
+    position: fixed;
+    animation-iteration-count: infinite;
+    z-index: 5;
+}
+
+goodbye {
+    z-index: 2;
+    position: fixed;
+    margin-top: 200px;
+    font-size: 59pt;
+    font-family: amador;
+    text-align:center;
+    margin-left: 22px;
+}
+/* ----- nested iframes ----- */
+#template17 {
+    position: fixed;
+    background-color: black;
+}
+.depot {
+    margin-top: 100px;
+}
+prepare {
+    position:fixed;
+    color:aliceblue;
+    font-family: helvetica;
+    font-weight: 100;
+    letter-spacing: 13px;
+    font-size: 12pt;
+    transition: 1s;
+    margin-left: 28px;
+    text-align: center;
+    margin-top: 30px;
+}
+prepare:hover {
+    letter-spacing: 1px;
+    
+    
+}
+/* ----- gif recursive ----- */
+#template18 {
+    position: fixed;
+    background-color: black;
+    overflow: scroll;
+}
+recursive {
+    font-family: helvetica;
+    position:fixed;
+    color: white;
+    font-weight: 100;
+    width: 300px;
+    margin-left: 145px;
+    font-size: 16pt;
+    margin-top: 90pt;
+    animation-duration: .5s;
+    animation-iteration-count: infinite;
+    animation-name: recursive;
+}
+
+@keyframes recursive {
+    from {
+        font-size: 15pt;
+        font-weight: 100;
+    }
+
+    to {
+       font-size: 16pt;
+        font-weight: 600;
+    }
+}
+    
+
+/* ----- videotype ----- */
+#template19 {
+    position: fixed;
+    background-color: ;
+    overflow: scroll;
+}
+text {
+    position: fixed;
+    z-index: 4;
+    color: lightblue;
+    margin-top: 20px;
+    font-size: 26pt;
+    font-family: acumin pro condensed;
+    font-weight:600;
+}
+
+/* ----- videotype ----- */
+#template20 {
+    position: fixed;
+    background-color: aliceblue;
+    overflow: scroll;
+    
+}
+.griditem1, .grid-item2, .grid-item3 {
+    position: absolute;
+    display: inline-block;
+    margin-top: 120px;
+    scroll-behavior: smooth;
+    
+}
+.grid-item2 {
+    margin-left: 360px;
+}
+.grid-item3 {
+    margin-left: 720px;
+}
+here {
+    position: fixed;
+    font-family: omnes-pro, sans-serif;
+    font-weight: 100;
+    margin-top: 200px;
+    margin-left:24px;
+    font-size: 16pt;
+}
+.linkback, .linkforward, .linkforward1 {
+    position: absolute;
+    margin-top: 200px;
+    color:aliceblue;
+    z-index: 4;
+    font-size: 30pt;
+    text-decoration: none;
+    text-underline-position: left;
+}
+
+.linkback {
+margin-left: 370px;
+letter-spacing: 340px;
+}
+.linkforward {
+margin-left: 320px;
+
+    
+}
+.linkforward1{
+margin-left: 680px;
+}
 /* ----- project index page styles ----- */
 
 #index {
@@ -626,13 +885,155 @@ dot {
     padding: 50px;
 }
 
-#index #title, ul {
+#index #title,
+ul {
     padding-bottom: 30px;
 }
 
 #index ul li {
-    list-style:decimal-leading-zero
+    list-style: decimal-leading-zero
 }
+/* ----- video direction ----- */
+#template21 {
+    position: fixed;
+    background-color: black;
+    overflow: scroll;
+}
+.direct {
+    position:fixed;
+}
+direction {
+    position: fixed;
+    margin-top: 290px;
+    color:red;
+    width: 300px;
+    margin-left: 25px;
+    font-size: 14pt;
+    font-style: italic;
+    font-family: acumin-pro;
+    z-index: 4;
+    
+}
+/* ----- music generation ----- */
+#template22 {
+    position: fixed;
+    background-color: #F4B400;
+    overflow: scroll;
+    
+}
+.musicgen {
+    margin-top: 110px;
+}
+the {
+   font-size: 12pt;
+    width: 600px;
+    position:absolute;
+    font-family: acumin-pro;
+    font-weight:100;
+    letter-spacing: 2px;
+    margin-top: 50px;
+    margin-left: 15px;
+    color: white;
+    
+}
+/* ----- sound voice ----- */
+#template23 {
+    position: fixed;
+    background-color: black;
+
+    width:350px;
+    
+}
+please {
+    font-family: omnes-pro, sans-serif;
+    font-weight: 100;
+    animation-name: please;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    margin-top: 50px;
+    color:white;
+    margin-left: 20px;
+}
+please2 {
+    font-family: omnes-pro, sans-serif;
+    font-size: 6pt;
+    font-weight: 100;
+    position: fixed;
+    color:red;
+    animation-name: please2;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    margin-top: 100px;
+    margin-left: 160px;
+}
+
+.pleases {
+    position: fixed;
+    margin-top: 180px;
+    margin-left: 25px;
+}
+@keyframes please {
+    from {
+        letter-spacing: 3px;
+        text-align: center;
+    }
+
+    to {
+        letter-spacing: 14px;
+        text-align: center;
+    }
+}
+@keyframes please2 {
+    from {
+        transform: scale(1)
+    }
+
+    to {
+        transform: scale(2.50)
+    }
+}
+/* ----- sound loops ----- */
+#template24 {
+    position: fixed;
+    background-color: ;
+    overflow: scroll; 
+    align-content: center;
+}
+
+loops, loops2 {
+    margin-top: 0px;
+    width: 2320px;
+    position: absolute;
+    font-family: acumin pro;
+    animation-name: loops;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    color:white;
+    font-size: 18pt;
+    position: fixed;
+    height: 40px;
+    padding-top: 10px;
+}
+loops2 {
+    margin-top: 200px;
+}
+.loop {
+    margin-left: 25px;
+    
+}
+
+@keyframes loops {
+    from {
+        background-color: white;
+        margin-left: 12px;
+    }
+
+    to {
+        background-color: red;
+     margin-left: -1112px;
+    }
+}
+
 /* -----  project template  ----- */
 #template,
 #template1,
@@ -646,7 +1047,19 @@ dot {
 #template9,
 #template10,
 #template11,
-#template12 {
+#template12,
+#template13,
+#template14,
+#template15,
+#template16,
+#template17,
+#template18,
+#template19,
+#template20,
+#template21,
+#template22,
+#template23,
+#template24 {
     width: 350px;
     height: 350px;
     border: 1px solid grey;
@@ -657,12 +1070,7 @@ dot {
     transform: translateY(-50%);
 }
 
-
 /* ----- project typelegibility page styles ----- */
-
-
-
-
 
 span {
     font-style: normal;
@@ -670,11 +1078,6 @@ span {
     letter-spacing: 5px;
 
 }
-
-
-
-
-
 
 
 /* -----  week 2 styles  ----- */
