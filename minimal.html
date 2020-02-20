@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="">
+<!-- THIS PAGE DOESNT WORK Whenever the unlock button is pushed it should reveal the apartment code-->
+<head>
+       <meta charset="utf-8">
+    <title>Samantha Pickett - Project 1 - Index</title>
+    <meta name="Samantha" content="Matthew Raupp">
+    <meta name="description" content="Interaction 2 - Week 2 - Type+Legibility">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css" type="text/css">
+    <link rel="stylesheet" href="https://use.typekit.net/ose1hqq.css">  
+<!--    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans&display=swap" rel="stylesheet"> -->   
+    <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> 
+<style>
+    .dream {
+        font-family: omnes-pro, sans-serif;
+        font-weight: 100;
+        letter-spacing: 8px;
+        margin-top: 100px;
+        position: fixed;
+        margin-left: 50px;
+        font-size: 14pt;
+        color: white;
+        
+    }
+    .unlock {
+        position: fixed;
+        background: transparent;
+        margin-left: 190px;
+        margin-top: 230px;
+        
+        
+    }
+    #number {
+        opacity:0%
+    };
+    .numberreveal {
+        opacity:100%;
+    }
+    
+    </style>
+</head>
+
+<body>
+<div id="wrapper">
+
+    <div id="template35">
+        
+      <div class="dream">NYC DREAM</div>
+    <button onclick="myFunction()" class= "unlock"> unlock </button>
+      <div id="number">Rent apartment 403</div> 
+        
+    </div>
+
+</div>
+
+<!-- javascript -->
+
+<script>
+    function myFunction() {
+  alert("Rent apartment 403");
+}
+//            function myFunction() {
+//  document.getElementById("number").classList.toggle("numberreveal");
+//}
+    
+    
+//    $(".unlock").click(function() {
+//            $("number").addClass("numberreveal");
+//        });
+     </script>
+   
+
+</body>
+</html>

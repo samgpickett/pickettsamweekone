@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="">
+<!-- THIS PAGE DOESNT WORK on this page I wanted the spray can to bounce up and down and then reveal an image-->
+
+<head>
+    <meta charset="utf-8">
+    <title>Samantha Pickett - Project 1 - Index</title>
+    <meta name="Samantha" content="Matthew Raupp">
+    <meta name="description" content="Interaction 2 - Week 2 - Type+Legibility">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css" type="text/css">
+    <link rel="stylesheet" href="https://use.typekit.net/ose1hqq.css">
+    <!--    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans&display=swap" rel="stylesheet"> -->
+    <!--    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>-->
+
+    <style>
+        .spray {
+            margin-left: 200px;
+            margin-top: 50px;
+            position: fixed;
+        }
+
+
+        .sprayclick {
+            margin-left: 15px;
+            transition: 3s;
+            opacity: 100%;
+        }
+
+        .spray:hover {
+            animation: shook .2s linear infinite;
+        }
+
+        @keyframes shook {
+            0% {
+                margin-top: 45px;
+            }
+
+            50% {
+                margin-top: 55px;
+            }
+        }
+
+        .arton {
+            opacity: 100%;
+        }
+
+        #art {
+            position: fixed;
+            margin-left: 60px;
+            margin-top: 30px;
+            opacity: 0%;
+            transition: 3s;
+        }
+
+        .decorate {
+            position: fixed;
+            margin-left: 170px;
+            background-color: black;
+            color: #F2E307;
+            margin-top: 270px;
+            border: none;
+
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <div id="wrapper">
+
+        <div id="template37">
+
+
+            <button onclick="decorate()" class="decorate">decorate</button>
+
+            <img id="art" src="images/graffitipng.png">
+
+            <img class="spray" src="images/spraycan.png" height="200px">
+
+
+
+        </div>
+
+    </div>
+
+    <!-- javascript -->
+
+
+    <script>
+        function decorate() {
+
+                alert("THIS ONE STILL DOES NOT WORK");
+                document.getElementsByClassName("spray").classList.toggle(".sprayclick");
+                document.getElementById("art").classList.toggle("arton");
+            };
+    </script>
+
+<!--
+    <script>
+        }
+        //         function myFunction() {
+        //  document.getElementById("art").classList.add("sprayclick");
+        }
+        //           $("button").click(function() {
+        //           $(".spray").addClass("sprayclick");          });
+        //         $(".art").addClass("sprayclick");
+        //        });
+    </script>
+-->
+
+</body></html>

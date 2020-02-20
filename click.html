@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="">
+<!-- I wanted to allow viewers to preview the apartment -->
+
+<head>
+    <meta charset="utf-8">
+    <title>Samantha Pickett - Project 1 - Index</title>
+    <meta name="Samantha" content="Matthew Raupp">
+    <meta name="description" content="Interaction 2 - Week 2 - Type+Legibility">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css" type="text/css">
+    <link rel="stylesheet" href="https://use.typekit.net/ose1hqq.css">
+    <!--    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans&display=swap" rel="stylesheet"> -->
+        <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> 
+
+</head>
+
+<body>
+    <div id="wrapper">
+
+        <div id="template42">
+
+            <div class="closer"> TAKE A CLOSER <BR>
+                <span class="look">LOOK</span>
+            </div>
+            <img class="eye" src="images/closerlook.jpg" height="350px">
+            <img class="preview" src="images/apartment.jpg" height="190px">
+
+        </div>
+
+    </div>
+        
+
+    <!-- javascript -->
+
+    <script>
+        $(".closer").click(function() {
+            $(".look").addClass("lookmoved");
+            $(".preview").addClass("view");
+        });
+        
+        $(".preview").click(function() {
+            $(".preview").addClass("lookmoved");
+            $(".preview").addClass("previewclick");
+        });
+    </script>
+        <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> 
+
+</body></html>

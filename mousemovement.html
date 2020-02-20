@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="">
+<!-- THIS PAGE DOESNT WORK, I inteded on the mouse move for the man to bounce up an down in excitement -->
+<head>
+       <meta charset="utf-8">
+    <title>Samantha Pickett - Project 1 - Index</title>
+    <meta name="Samantha" content="Matthew Raupp">
+    <meta name="description" content="Interaction 2 - Week 2 - Type+Legibility">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css" type="text/css">
+    <link rel="stylesheet" href="https://use.typekit.net/ose1hqq.css">  
+<!--    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans&display=swap" rel="stylesheet"> -->   
+   <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> 
+
+</head>
+<style>
+.doorman {
+    margin-left: 120px;
+    margin-top: 20px;
+    position: fixed;
+    opacity: 60%;
+}
+.doormanmove {
+    animation: bounce 1s linear infinite;
+}
+@keyframes bounce {
+    50% {
+        margin-top: 10px;
+    }
+}
+.shower {
+    margin-left: 12px;
+    margin-top: 30px;
+    width: 200px;
+    font-size: 12pt;
+    font-family: omnes-pro, sans-serif;
+    font-weight: 100;
+    color:#404040;
+    
+}
+    </style>
+<body>
+<div id="wrapper">
+
+    <div id="template40">
+        <img class="doorman" src="images/doorman.png" height="330">
+        <div class="shower">The shower is located at the Comfort Inn next door. I'll personally introduce <br> you to the door man John <strong> John only works two nights a week so plan accordingly.</strong></div>
+        <div class="doormanmove"></div>
+        
+    </div>
+
+</div>
+
+<!-- javascript -->
+
+<script>
+    document.getElementsByClassName("doorman"); {
+        onmousemove = function() {
+            alert('there is high demad! act now!');
+        }
+    }
+    
+//$("document").mouseover(() => {
+//    $("doorman").addClass( "doormanmove" );
+//});
+    
+    </script>
+
+</body>
+</html>

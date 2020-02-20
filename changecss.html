@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="">
+<!-- THIS PAGE DOESNT WORK on button click I had a neverending staircase -->
+<head>
+       <meta charset="utf-8">
+    <title>Samantha Pickett - Project 1 - Index</title>
+    <meta name="Samantha" content="Matthew Raupp">
+    <meta name="description" content="Interaction 2 - Week 2 - Type+Legibility">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css" type="text/css">
+    <link rel="stylesheet" href="https://use.typekit.net/ose1hqq.css">  
+<!--    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans&display=swap" rel="stylesheet"> -->  
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+
+<style>
+   .walkup {
+    font-family: helvetica;
+    font-weight: 600;
+    font-size:24pt;
+    margin-left: 135px;
+    margin-top: 250px;
+    width: 200px;
+    padding-bottom: 10px;
+    background-color: black;
+    border: none;
+    color: #F2E307;
+    
+}
+#stairs {
+    position: fixed;
+    margin-left: -110px;
+    margin-top: 0px;
+}
+.stairsclick {
+    animation: up 1s linear infinite;
+    position: fixed;
+    margin-left: -110px;
+    margin-top: 0px;
+
+}
+@keyframes up {
+    100% {
+        margin-left: 0px;
+        margin-top: -110px
+    }
+} 
+    .demo {
+        color:aqua;
+    }
+    .demonew {
+        color: saddlebrown;
+    }
+</style>
+</head>
+
+<body>
+ 
+<div id="wrapper">
+
+    <div id="template39">
+        
+        <img id="stairs" src="images/stairs.png" width="460px">
+        <button onclick="myFunction()" class="walkup" >four story <BR> walk up...</div>
+
+        
+    </div>
+
+</div>
+    
+
+<!-- javascript -->
+    <script>
+        function myFunction() {
+  document.getElementById("stairs").classList.toggle("stairsclick");
+}
+        
+//        const add = document.querySelector('.add');
+//        const add = document.querySelector('.add');
+//        
+//        
+//    add.addEventListener('click', () => {
+//            demo.classList.add('demonew')
+//        })
+        
+//        document.getElementById("demo").onclick = function() {myFunction()};
+//
+//function myFunction() {
+//  document.getElementById("demo").innerHTML = "YOU CLICKED ME!";
+//}
+//       
+//    $(".walkup").click(function() {
+//         $(".stairs").addClass(".stairsclick");
+//        });
+        
+    </script>
+
+</body>
+</html>

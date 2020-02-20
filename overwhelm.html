@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="">
+<!-- THIS PAGE DOESNT WORK When you click on apply now a box should come up where you can input your name and click submit-->
+
+<head>
+    <meta charset="utf-8">
+    <title>Samantha Pickett - Project 1 - Index</title>
+    <meta name="Samantha" content="Matthew Raupp">
+    <meta name="description" content="Interaction 2 - Week 2 - Type+Legibility">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css" type="text/css">
+    <link rel="stylesheet" href="https://use.typekit.net/ose1hqq.css">
+    <!--    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans&display=swap" rel="stylesheet"> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <style>
+        /* ----- overwhelm ----- */
+        #template36 {
+            position: fixed;
+            background-color: ;
+            overflow: hidden;
+            align-content: center;
+            background-color: #F2E307;
+        }
+
+        .overwhelmnyc {
+            font-family: acumin pro;
+            font-weight: 600;
+            font-size: 12pt;
+            word-spacing: 20px;
+            margin-left: 15px;
+            position: fixed;
+            z-index: 0;
+            color: #0D0D0D;
+        }
+
+        .apply {
+            position: fixed;
+            font-family: acumin pro;
+            font-weight: 600;
+            color: white;
+            font-size: 37pt;
+            z-index: 4;
+            letter-spacing: -8px;
+            word-spacing: 10px;
+            margin-top: 200px;
+            margin-left: 100px;
+            background-color: Transparent;
+            border: none;
+            animation: flashy .5s linear infinite;
+        }
+
+        @keyframes flashy {
+            95% {
+                color: #F2E307;
+            }
+        }
+
+        #form {
+            background-color: black;
+            color: white;
+            z-index: 10;
+            position: fixed;
+            margin-left: 130px;
+            margin-top: 250px;
+            padding: 10px;
+            font-family: acumin pro;
+            opacity: 100%;
+        }
+
+        .reveal {
+            color: green;
+        }
+
+        #btnsubmit {
+            z-index: 20;
+            position: fixed;
+            color: black;
+            margin-top: 310px;
+            background-color: white;
+            border: none;
+            margin-left: 190px;
+            opacity: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="wrapper">
+
+        <div id="template36">
+            <button onclick="applynow" class="apply">APPLY NOW</button>
+            <div class="overwhelmnyc">
+                NYC NYC NYC NYC NYC NYC NYC NYC NYC NYC NYC NYC NYC NYC NYC NYC NYC NYC NYC NYC NYC NYC NYC NYC NYC NYC NYC NYC NYC NYC NYC NYC NYC NYC NYC NYC NYC NYC NYC NYC NYC NYC NYC NYC NYC NYC NYC NYC NYC NYC NYC NYC NYC NYC NYC NYC NYC NYC NYC NYC NYC NYC NYC NYC NYC NYC NYC NYC NYC NYC NYC NYC NYC NYC NYC NYC NYC NYC NYC NYC NYC NYC NYC NYC NYC NYC NYC NYC NYC NYC NYC NYC NYC NYC NYC NYC NYC NYC NYC NYC NYC NYC NYC NYC NYC NYC NYC NYC NYC NYC NYC NYC NYC NYC NYC NYC NYC NYC NYC NYC NYC NYC NYC NYC NYC NYC NYC NYC NYC NYC NYC NYC NYC NYC NYC NYC NYC NYC NYC NYC NYC NYC NYC NYC NYC NYC NYC NYC NYC NYC NYC NYC NYC NYC NYC NYC NYC NYC NYC NYC NYC NYC NYC NYC NYC NYC NYC NYC NYC NYC NYC
+            </div>
+
+            <form id="form">
+
+                <label class="w3-text-blue"><b>Full Name</b></label>
+                <input class="ap" type="text">
+            </form>
+
+            <button id="btnsubmit" onclick="happy()">submit</button>
+
+        </div>
+
+        <!-- javascript -->
+
+        <script>
+            function happy() {
+  alert("Thank you for applying!");
+                }
+            </script>
+//                document.getElementById("btnsubmit").classList.add("reveal");
+            
+        
+
+</body></html>

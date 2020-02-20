@@ -1469,6 +1469,7 @@ mercury2 {
     margin-top: 20px;
     margin-left: 90px;
 }
+
 #show {
     margin-left: -95px;
 }
@@ -1485,21 +1486,23 @@ mercury2 {
     background-color: ;
     overflow: scroll;
     align-content: center;
-    background-color:#F20732; 
+    background-color: #F20732;
 }
+
 .charlie {
-    position: fixed; 
+    position: fixed;
     margin-top: 50px;
     margin-left: 130px;
     z-index: 1;
 }
 
 .thought {
-    position:fixed;
+    position: fixed;
     margin-left: 50px;
     margin-top: -30px;
     z-index: 0;
 }
+
 button {
     background-color: blue;
     font-family: helvetica;
@@ -1508,10 +1511,11 @@ button {
     margin-top: 240px;
     font-weight: 600;
     font-size: 18px;
-    position:relative;
+    position: relative;
     padding: 1px 10px 3px 10px;
 
 }
+
 /* ----- intense ----- */
 #template32 {
     background-color: black;
@@ -1521,11 +1525,13 @@ button {
     color: white;
     position: fixed;
 }
-#follower{
+
+#follower {
     position: absolute;
     float: right;
 }
-.lightdrag{
+
+.lightdrag {
     width: 1px;
     height: 1px;
     border-radius: 50px;
@@ -1536,6 +1542,7 @@ button {
     margin-left: 50px;
 
 }
+
 reveal {
     position: fixed;
     color: black;
@@ -1545,7 +1552,7 @@ reveal {
     letter-spacing: 1px;
     margin-left: 20px;
     margin-top: 50px;
-    
+
 }
 
 /* ----- chaotic ----- */
@@ -1556,14 +1563,17 @@ reveal {
     align-content: center;
     background-color: lavender;
 }
+
 @keyframes rotate {
     0% {
         transform: rotate(0deg);
     }
+
     100% {
         transform: rotate(360deg);
     }
 }
+
 .decorate {
     z-index: 2;
     position: fixed;
@@ -1572,28 +1582,214 @@ reveal {
     font-size: 20pt;
     font-family: font-family: vollkorn, serif;
     font-weight: 600;
-    
-    
+
+
 }
+
 .tangled {
     position: fixed;
     margin-top: -100px;
     z-index: 0;
     margin-left: -300px;
-     animation: rotate 16s linear infinite;
+    animation: rotate 16s linear infinite;
 }
+
 .chand {
-    position:fixed;
+    position: fixed;
     margin-top: -280px;
-     animation: rotate 16s linear infinite;
-    
+    animation: rotate 16s linear infinite;
+
 }
-.plug{
+
+.plug {
     position: fixed;
     margin-top: 150px;
     margin-left: -160px;
     z-index: 1;
-     animation: rotate 6s linear infinite;
+    animation: rotate 6s linear infinite;
+}
+
+/* ----- opacity ----- */
+#template34 {
+    position: fixed;
+    background-color: ;
+    overflow: hidden;
+    align-content: center;
+    background-color: #190D26;
+    font-family: acumin pro;
+    font-size: 32pt;
+}
+.try, .cozy {
+    font-weight: 100;
+    margin-left: 40px;
+    position: fixed;
+    margin-top: 270px;
+    letter-spacing: 14px;
+    color: white;
+}
+.cozy {
+    margin-top: 25px;
+    letter-spacing: 0px;
+}
+.amenities {
+    position: fixed;
+    margin-left: 15px;
+    margin-top: 100px;
+    opacity: 60%;
+}
+.detail {
+    position: fixed;
+    margin-left: 123px;
+ margin-top: 100px;
+     opacity: 60%;
+}
+.main {
+    position: fixed;
+    margin-left: 230px;
+    margin-top: 100px;
+    opacity: 60%;
+    
+}
+.opacity {
+    opacity: 100%;
+}
+.hovertext {
+    font-size: 12pt;
+    color: yellow;
+    margin-top: 180px;
+    position: fixed;
+    margin-left: 30px;
+    word-spacing: 48px;
+    opacity: 0%;
+    transition:.5s;
+}
+.hovertext:hover {
+    opacity: 100%;
+}
+
+
+
+/* ----- minimal ----- */
+#template35 {
+    position: fixed;
+    background-color: ;
+    overflow: hidden;
+    align-content: center;
+    background-color: #190D26;
+}
+
+
+
+/* ----- slide ----- */
+#template37 {
+    position: fixed;
+    background-color: ;
+    overflow: hidden;
+    align-content: center;
+    background-color: #F2E307;
+}
+
+
+/* ----- getandpost ----- */
+#template38 {
+    position: fixed;
+    background-color: ;
+    overflow: hidden;
+    align-content: center;
+    background-color: #568C82;
+}
+
+/* ----- changecss ----- */
+#template39 {
+    position: fixed;
+    background-color: ;
+    overflow: hidden;
+    align-content: center;
+    background-color: #F2E307;
+}
+
+/* ----- mousemovement ----- */
+#template40 {
+    position: fixed;
+    background-color: ;
+    overflow: scroll;
+    align-content: center;
+    background-color: #F2F2F2;
+}
+
+
+/* ----- color ----- */
+#template41 {
+    position: fixed;
+    background-color: ;
+    overflow: hidden;
+    align-content: center;
+}
+
+/* ----- click ----- */
+#template42 {
+    position: fixed;
+    background-color: ;
+    overflow: scroll;
+    align-content: center;
+    background-color: lavender;
+}
+
+.closer {
+    font-family: acumin pro condensed;
+    font-weight: 600;
+    position: fixed;
+    z-index: 2;
+    font-size: 22pt;
+    color: white;
+    margin-top: 20px;
+    margin-left: 16px;
+
+}
+.closer:hover {
+    color: red;
+}
+
+.look {
+    font-family: acumin pro condensed;
+    font-weight: 600;
+    position: fixed;
+    z-index: 2;
+    font-size: 76pt;
+    margin-left: 155px;
+    margin-top: 12px;
+    
+}
+
+.lookmoved {
+    transition: 1s;
+    margin-top: 180px;
+    font-style: italic;
+}
+
+.eye {
+    position: fixed;
+    margin-left: -110px;
+}
+.preview {
+   opacity: 0;
+    position: fixed;
+    margin-top: 53px;
+    margin-left: 190px;
+    transition: 2s;
+    
+}
+.previewclick {
+   opacity: 0;
+    position: fixed;
+    margin-left: 1px;
+    transition: 2s;
+    margin-top: 0px;
+    height: 600px;
+    
+}
+.view {
+     opacity: 100;
 }
 
 /* -----  project template  ----- */
@@ -1631,7 +1827,18 @@ reveal {
 #template30,
 #template31,
 #template32,
-#template33 {
+#template33,
+#template34,
+#template35,
+#template36,
+#template37,
+#template38,
+#template39,
+#template40,
+#template41,
+#template42,
+#template43,
+#template44 {
     width: 350px;
     height: 350px;
     border: 1px solid grey;

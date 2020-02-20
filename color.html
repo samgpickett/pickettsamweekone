@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="">
+<!-- I wanted to make a joke about the lights that would come through the single window -->
+
+<head>
+    <meta charset="utf-8">
+    <title>Samantha Pickett - Project 1 - Index</title>
+    <meta name="Samantha" content="Matthew Raupp">
+    <meta name="description" content="Interaction 2 - Week 2 - Type+Legibility">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css" type="text/css">
+    <link rel="stylesheet" href="https://use.typekit.net/ose1hqq.css">
+    <!--    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans&display=swap" rel="stylesheet"> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+</head>
+<style>
+    .background {
+    position: fixed;
+    margin-top:0px;
+    margin-left:0px;
+}
+.police {
+    position: fixed;
+    z-index: 3;
+    color: yellow;
+    font-family: acumin pro;
+    font-weight: 600;
+    margin-top: 150px;
+    margin-left: 15px;
+    font-size: 14pt;
+    line-height: 24px;  
+}
+.policeclick {
+    width: 350px;
+    height: 350px;
+    background-color: red;
+    opacity: 0%;
+    z-index: 4;
+    position: fixed; 
+    animation: sirens .5s linear infinite;
+}
+.policeclickon {
+    opacity: 30%;
+}
+@keyframes sirens {
+    0% {
+        background-color: red;
+    }
+    50% {
+        background-color: blue;
+    }
+}
+    #NYPD {
+        z-index: 8;
+        opacity: 100%;
+        color: black;
+        margin-top: 210px;
+        position: fixed;
+        background-color: yellow;
+        font-size: 58pt;
+        margin-left: 15px;
+    }
+
+</style>
+
+<body>
+    <div id="wrapper">
+
+        <div id="template41">
+            <div class="policeclick"></div>
+
+            <div class="police">frequent EDM concerts <br> authentically thrown by the  </div>
+            <button id= "NYPD">NYPD</button>
+            <img class="background" src="images/apartment.jpg" width="350px">
+
+        </div>
+
+    </div>
+
+    <!-- javascript -->
+
+    <script>
+        $("#NYPD").click(function() {
+            $(".policeclick").addClass("policeclickon");
+        });
+    </script>
+
+</body></html>
