@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="">
+<!-- use this starter page for each new experiment -->
+<head>
+       <meta charset="utf-8">
+    <title>Samantha Pickett - Project 1 - Index</title>
+    <meta name="Samantha" content="Matthew Raupp">
+    <meta name="description" content="Interaction 2 - Week 2 - Type+Legibility">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css" type="text/css">
+    <link rel="stylesheet" href="https://use.typekit.net/ose1hqq.css">  
+    <link href="https://fonts.googleapis.com/css?family=Krona+One&display=swap" rel="stylesheet">
+<!--    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans&display=swap" rel="stylesheet"> -->   
+<!--    <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
+
+</head>
+
+<body>
+<div id="wrapper">
+
+    <div id="template50">
+        
+           <div class="complete">Upon completion I will hide the picture at a public place in your area</div>
+
+<button class="location" onclick="document.getElementById('demo').innerHTML = long(-42.331429,42.331429)">Longitude</button>
+
+ <button  class="location" onclick="document.getElementById('demo').innerHTML = lat(-83.045753,83.045753)">Latitude</button>
+
+<div id="demo"></div>
+    </div>
+
+        
+    </div>
+
+</div>
+
+<!-- javascript -->
+
+<script>
+       
+function long(min, max) {
+  return Math.floor(Math.random() * (max - min + 1) ) + min;
+}
+    
+function lat(min, max) {
+  return Math.floor(Math.random() * (max - min + 1) ) + min;
+} 
+    
+    
+    </script>
+
+</body>
