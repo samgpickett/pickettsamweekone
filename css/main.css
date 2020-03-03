@@ -72,10 +72,12 @@ ul {
     font-size: 10pt;
 }
 
+/*
 a {
     color: #d32531;
     text-decoration: none;
 }
+*/
 
 a:hover {
     text-decoration: underline;
@@ -318,6 +320,10 @@ textPath {
     letter-spacing: 6px;
     z-index: 10;
     color:white;
+<<<<<<< HEAD
+=======
+   
+>>>>>>> f357086801c37c77b8260bc63ccb6a79025805a9
 }
 /*
 @keyframes reunite {
@@ -518,7 +524,11 @@ subheadanimation {
     margin-left: 25px;
 }
 
+<<<<<<< HEAD
 .subheadrgba {
+=======
+subheadrgba {
+>>>>>>> f357086801c37c77b8260bc63ccb6a79025805a9
     color: white;
     margin-top: 30px;
     margin-left: 32px;
@@ -823,7 +833,12 @@ subheadanimation {
 /* ----- gif loop ----- */
 #template16 {
     position: fixed;
+<<<<<<< HEAD
     background-color: #C41606;
+=======
+    background-color: #590202;
+    overflow: hidden;
+>>>>>>> f357086801c37c77b8260bc63ccb6a79025805a9
 }
 
 .walking {
@@ -831,6 +846,7 @@ subheadanimation {
     position: fixed;
     animation-iteration-count: infinite;
     z-index: 5;
+    
 }
 
 .goodbye {
@@ -841,6 +857,7 @@ subheadanimation {
     font-family: amador;
     text-align: center;
     margin-left: 22px;
+<<<<<<< HEAD
     animation: bye 9.8s infinite;
     animation-delay: 9.8s;
     color: #F08703;
@@ -856,6 +873,51 @@ subheadanimation {
         margin-left: 180px;
     }
 
+=======
+    animation: bye 9.7s infinite;
+    text-align: center;
+    
+}
+.good {
+     color:#BF2011;
+    text-decoration: none;
+    
+}
+@keyframes bye {
+    0% {
+        font-size: 59pt;
+        margin-left: 22px;
+        opacity: 100%
+    }
+    70% {
+        margin-top: 90px;
+
+        
+    }
+    100% {
+        margin-top: 70px;
+        font-size: 30pt;
+        margin-left: 122px;
+
+    }
+
+}
+.names {
+    color: wheat;
+    font-family: vollkorn, serif;
+    position: fixed;
+    text-align: center;
+    margin-left: 130px;
+    line-height: 50px;
+    margin-top: 400px;
+    animation: name 9.6s infinite;
+}
+
+@keyframes name {
+    96% {
+        margin-top: 100px;
+    }
+>>>>>>> f357086801c37c77b8260bc63ccb6a79025805a9
 }
 
 /* ----- nested iframes ----- */
@@ -2093,6 +2155,13 @@ reveal {
     font-family: 'Lato';
     opacity: 100%;
 
+<<<<<<< HEAD
+=======
+
+
+
+
+>>>>>>> f357086801c37c77b8260bc63ccb6a79025805a9
 }
 
 /* -----  interaction wildcard 1  ----- */
