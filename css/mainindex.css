@@ -1,0 +1,276 @@
+/* global style */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Geo';
+    background-color: #1D4259;
+    z-index: 0;
+}
+
+/* index */
+
+#index #wrapper {
+    width: 80%;
+}
+
+
+/* project template */
+
+#home_btn {
+    display: inline-block;
+    margin: 25px
+}
+
+#home_btn a {
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: 400;
+    color: red;
+}
+
+#home_btn a:hover {
+    border-bottom: 10px solid;
+}
+a {
+    position: absolute;
+    margin-top: 356px;
+    font-family: sans-serif;
+    text-decoration: none;
+    margin-left: 155px;
+    font-family: 'Geo';
+    color: #66D9D9;
+    
+}
+iframe {
+    border: transparent;
+}
+.template {
+    height: 380px;
+    width: 350px;
+    background-color: #1D4259;
+    overflow: hidden;
+    position: relative;
+    /* css grid for final page */
+
+    display: inline-grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+
+    /* center on page */
+
+    /*
+    top: 25%;
+    transform: translateY(-50%);
+
+    left: 50%;  
+    transform: translateX(-50%)
+    */
+}
+#header {
+    font-size: 10vw;
+    font-family: 'Geo';
+    font-weight: 600;
+    margin-top: 20px;
+    animation: bounce 1s linear infinite;
+    margin-left: auto;
+    margin-right: auto;
+    color: #F2CA99;
+}
+@keyframes bounce {
+    50% {
+        margin-top: 30px;
+    }
+}
+.process {
+    
+    font-weight: 600;
+}
+
+/* experiment IDs */
+
+#experiment1 {
+
+}
+
+#experiment2 {
+
+}
+
+#experiment3 {
+
+}
+
+#experiment4 {
+
+}
+
+#experiment5 {
+
+}
+
+#experiment6 {
+
+}
+
+#experiment7 {
+
+}
+
+#experiment8 {
+
+}
+
+#experiment9 {
+
+}
+
+#experiment10 {
+
+}
+
+#experiment11 {
+
+}
+
+#experiment12 {
+
+}
+
+#experiment13 {
+
+}
+
+#experiment14 {
+
+}
+
+#experiment15 {
+
+}
+
+#experiment16 {
+
+}
+
+#experiment17 {
+
+}
+
+#experiment18 {
+
+}
+
+#experiment19 {
+
+}
+
+#experiment20 {
+
+}
+
+#experiment21 {
+
+}
+
+#experiment22 {
+
+}
+
+#experiment23 {
+
+}
+
+#experiment24 {
+ 
+}
+
+
+/* responsive styles */
+/* desktop + global layout */
+
+#wrapper {
+    display: inline-grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 7px;
+    margin-top: 200px;
+}
+
+
+/* tablet only styles */
+@media (max-width: 1100px) {
+
+    #wrapper {
+        display: inline-grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(12, 1fr);
+    }
+}
+
+/* mobile only styles */
+@media (max-width: 700px) {
+
+    #wrapper {
+        display: inline-grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(24, 1fr);
+    }
+
+}
+/* ============================================================================================== 
+SED Innovations
+https://sed.am
+https://mkrtchyan.ga
+================================================================================================= */
+* {
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color:rgba(33, 33, 33, 0.9);
+    color:#ffffff;
+    display:block;
+    font: 14px/1.3 Arial,sans-serif;
+    height:50px;
+    position:relative;
+    z-index:5;
+}
+h2{
+    margin-top: 30px;
+    text-align: center;
+}
+header h2{
+    font-size: 22px;
+    margin: 0 auto;
+    padding: 10px 0;
+    width: 80%;
+    text-align: center;
+}
+header a, a:visited {
+    text-decoration:none;
+    color:#fcfcfc;
+}
+canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.info {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 5px 15px;
+    color: #eee;
+    font-size: 13px;
+    background-color: rgba(0, 0, 0, .5);
+}
+
+
