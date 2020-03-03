@@ -89,7 +89,7 @@ a:hover {
     position: fixed;
 }
 
-type1title {
+.type1title {
 
     font-family: abril-fatface, serif;
     font-weight: 400;
@@ -105,7 +105,7 @@ type1title {
 
 
 
-type1subhead {
+.type1subhead {
     font-family: vollkorn, serif;
     font-size: 14pt;
     margin-top: 366px;
@@ -166,8 +166,8 @@ type1subhead {
 
 
 
-type2title,
-type2callout,
+.type2title,
+.type2callout,
 li {
     color: #262223;
 }
@@ -208,10 +208,11 @@ li {
     background-color: #D92D07;
     position: fixed;
     z-index: -1;
+    overflow: hidden;
 
 }
 
-type3title {
+.type3title {
     font-family: abril-fatface, serif;
     font-weight: 400;
     font-style: italic;
@@ -219,12 +220,12 @@ type3title {
     font-size: 46pt;
     color: #F2B749;
     line-height: 55px;
-    margin-top: 170px;
+
     position: absolute;
     margin-left: 5px;
 }
 
-type3title:hover {
+.type3title:hover {
     transform: skewX(-2deg);
     transition: 5s;
 }
@@ -255,48 +256,51 @@ type3p {
     position: fixed;
     z-index: -1;
     position: absolute;
-
+    overflow: hidden;
 }
 
 .transparentimage {
-    opacity: 0.5;
-    z-index: 1;
-    position: absolute;
-    margin-top: 75px;
-    margin-left: 45px;
+    opacity: .5;
+    z-index: 2;
+    position: fixed;
+    margin-top: -46px;
+    margin-left: 70px;
+    
 }
 
-titletransparent {
+.titletransparent {
     color: #F25041;
     font-size: 40pt;
     position: fixed;
     opacity: .7;
     font-family: gin;
-    margin-top: 200px;
+    margin-top: 40px;
     z-index: 2;
     margin-left: 25px;
     line-height: 68px;
 }
 
-subheadtransparent {
+.subheadtransparent {
     position: fixed;
     color: darkblue;
     font-family: acumin pro condensed;
     font-weight: 600;
-    margin-top: 400px;
+    margin-top: 240px;
     font-size: 30pt;
-    margin-left: 20px;
+    margin-left: 25px;
     opacity: .5;
 }
 
 .around {
     font-size: 80pt;
     margin-left: 20px;
+      position: fixed;
 }
 
 .around:hover {
     font-style: italic;
     transition: 1s;
+      position: fixed;
 }
 
 /* ----- image reveal ----- */
@@ -316,7 +320,10 @@ textPath {
     letter-spacing: 6px;
     z-index: 10;
     color:white;
+<<<<<<< HEAD
+=======
    
+>>>>>>> f357086801c37c77b8260bc63ccb6a79025805a9
 }
 /*
 @keyframes reunite {
@@ -417,7 +424,7 @@ path {
     }
 }
 
-goodtimes {
+.goodtimes {
     color: white;
     font-family: hobeaux;
     position: fixed;
@@ -510,14 +517,18 @@ subheadanimation {
     position: fixed;
 }
 
-subheadrgba,
-subsubheadrgba {
+.subheadrgba,
+.subsubheadrgba {
     font-family: amador;
     font-size: 50pt;
     margin-left: 25px;
 }
 
+<<<<<<< HEAD
+.subheadrgba {
+=======
 subheadrgba {
+>>>>>>> f357086801c37c77b8260bc63ccb6a79025805a9
     color: white;
     margin-top: 30px;
     margin-left: 32px;
@@ -525,7 +536,7 @@ subheadrgba {
     position: fixed;
 }
 
-subsubheadrgba {
+.subsubheadrgba {
     position: absolute;
     margin-top: 220px;
     font-size: 60pt;
@@ -541,7 +552,7 @@ subsubheadrgba {
     background: rgba(200, 10, 0, 1);
 }
 
-heart-shape {
+.heart-shape {
     color: white;
     margin-top: 160px;
     margin-left: 170px;
@@ -713,7 +724,7 @@ heart-shape {
     background-color: #0F0F0F;
 }
 
-creepy {
+.creepy {
     text-align: center;
     position: fixed;
     margin-left: 35px;
@@ -736,7 +747,24 @@ creepy {
 }
 
 .there {
-    font-size: 60pt;
+    position: fixed;
+    margin-left: -110px;
+    margin-top: -120px;
+    font-size: 40pt;
+    opacity: 0%;
+    animation: sink 10s linear infinite;
+}
+@keyframes sink {
+    40% {
+        margin-top: -120px;
+        opacity: 100%;
+        font-size: 60pt;
+         margin-left: -120px;
+    }
+    90% {
+         margin-top: 20px;
+    margin-left: -105px;
+    }
 }
 
 /* ----- map personality ----- */
@@ -744,7 +772,7 @@ creepy {
     position: fixed;
 }
 
-pay {
+.pay {
     font-family: gin;
     font-size: 26pt;
     z-index: 2;
@@ -755,7 +783,7 @@ pay {
     color: #DD4B3E;
 }
 
-pay:hover {
+.pay:hover {
     margin-top: 230px;
     transition: 10s;
 }
@@ -774,7 +802,7 @@ pay:hover {
     z-index: 1;
 }
 
-fullnight {
+.fullnight {
     color: red;
     font-family: omnes-pro, sans-serif;
     font-size: 40pt;
@@ -805,8 +833,12 @@ fullnight {
 /* ----- gif loop ----- */
 #template16 {
     position: fixed;
+<<<<<<< HEAD
+    background-color: #C41606;
+=======
     background-color: #590202;
     overflow: hidden;
+>>>>>>> f357086801c37c77b8260bc63ccb6a79025805a9
 }
 
 .walking {
@@ -825,6 +857,23 @@ fullnight {
     font-family: amador;
     text-align: center;
     margin-left: 22px;
+<<<<<<< HEAD
+    animation: bye 9.8s infinite;
+    animation-delay: 9.8s;
+    color: #F08703;
+}
+@keyframes bye {
+    80% {
+        margin-top: 50px;
+
+    }
+    100% {
+        margin-top: 80px;
+        font-size: 0pt;
+        margin-left: 180px;
+    }
+
+=======
     animation: bye 9.7s infinite;
     text-align: center;
     
@@ -868,6 +917,7 @@ fullnight {
     96% {
         margin-top: 100px;
     }
+>>>>>>> f357086801c37c77b8260bc63ccb6a79025805a9
 }
 
 /* ----- nested iframes ----- */
@@ -880,7 +930,7 @@ fullnight {
     margin-top: 100px;
 }
 
-prepare {
+.prepare {
     position: fixed;
     color: aliceblue;
     font-family: helvetica;
@@ -893,7 +943,7 @@ prepare {
     margin-top: 30px;
 }
 
-prepare:hover {
+.prepare:hover {
     letter-spacing: 1px;
 
 
@@ -954,7 +1004,7 @@ prepare:hover {
     overflow: scroll;
 }
 
-text {
+.text {
     position: fixed;
     z-index: 4;
     color: lightblue;
@@ -990,7 +1040,7 @@ text {
     margin-left: 720px;
 }
 
-here {
+.here {
     position: fixed;
     font-family: omnes-pro, sans-serif;
     font-weight: 100;
@@ -1058,7 +1108,7 @@ ul {
     position: fixed;
 }
 
-direction {
+.direction {
     position: fixed;
     margin-top: 290px;
     color: red;
@@ -1083,7 +1133,7 @@ direction {
     margin-top: 110px;
 }
 
-the {
+.the {
     font-size: 12pt;
     width: 600px;
     position: absolute;
@@ -1105,7 +1155,7 @@ the {
 
 }
 
-please {
+.please {
     font-family: omnes-pro, sans-serif;
     font-weight: 100;
     animation-name: please;
@@ -1116,7 +1166,7 @@ please {
     margin-left: 20px;
 }
 
-please2 {
+.please2 {
     font-family: omnes-pro, sans-serif;
     font-size: 6pt;
     font-weight: 100;
@@ -1165,8 +1215,8 @@ please2 {
     align-content: center;
 }
 
-loops,
-loops2 {
+.loops,
+.loops2 {
     margin-top: 0px;
     width: 2320px;
     position: absolute;
@@ -1181,7 +1231,7 @@ loops2 {
     padding-top: 10px;
 }
 
-loops2 {
+.loops2 {
     margin-top: 200px;
 }
 
@@ -1206,7 +1256,7 @@ loops2 {
 #template25 {
     position: fixed;
     background-color: ;
-    overflow: scroll;
+    overflow: hidden;
     align-content: center;
     background-color: black;
 }
@@ -1324,7 +1374,7 @@ loops2 {
     }
 }
 
-original {
+.original {
     color: white;
     position: fixed;
     margin-top: 290px;
@@ -1347,6 +1397,7 @@ original {
     overflow: scroll;
     align-content: center;
     background: #07038C;
+    overflow: hidden;
 }
 
 .lightin {
@@ -1358,8 +1409,7 @@ original {
     margin-top: 340px;
     margin-left: 195px;
     position: fixed;
-    animation-name: lightin;
-    animation-duration: 2s;
+    animation: lightin 10s infinite;
     opacity: .6;
     z-index: 2
 }
@@ -1369,8 +1419,14 @@ original {
         opacity: 0%;
     }
 
-    100% {
+    26% {
         opacity: 60%;
+    }
+        95% {
+        opacity: 60%;
+    }
+        100% {
+        opacity: 0%;
     }
 }
 
@@ -1380,7 +1436,7 @@ original {
     opacity: .8;
 }
 
-softlight {
+.softlight {
     color: #F20732;
     font-family: acumin pro condensed;
     font-weight: 600;
@@ -1396,7 +1452,7 @@ softlight {
 #template28 {
     position: fixed;
     background-color: ;
-    overflow: scroll;
+    overflow: hidden;
     align-content: center;
     background-color: yellow;
 }
@@ -1407,8 +1463,7 @@ softlight {
     height: 200px;
     position: fixed;
     margin-left: 90px;
-    animation-name: cord;
-    animation-duration: 3s;
+    animation: cord 10s infinite;
 
 }
 
@@ -1417,8 +1472,7 @@ softlight {
     position: fixed;
     margin-left: 140px;
     line-height: 250px;
-    animation: 6s;
-    animation-name: delay;
+    animation:delay 10s infinite;
     animation-delay: 3s;
 }
 
@@ -1451,8 +1505,7 @@ softlight {
 .lightdelay {
     margin-left: 76px;
     margin-top: 200px;
-    animation-name: blub;
-    animation-duration: 3s;
+    animation: blub 10s infinite;
     position: fixed;
 
 }
@@ -1462,8 +1515,14 @@ softlight {
         margin-top: -80px;
     }
 
-    100% {
+    30% {
         margin-top: 200px;
+    }
+    90% {
+        margin-top: 200px;
+    }
+    100% {
+        margin-top: -80px;
     }
 }
 
@@ -1482,6 +1541,7 @@ softlight {
 
     30% {
         background-color: #022859;
+         margin-top: 0px;
     }
 
     40% {
@@ -1503,9 +1563,12 @@ softlight {
     80% {
         background-color: #D90404;
     }
+ 90% {
+         margin-top: 0px;
+    }
 
     100% {
-        margin-top: 0px;
+        margin-top: -280px;
     }
 }
 
@@ -1555,8 +1618,8 @@ softlight {
     }
 }
 
-mercury,
-mercury2 {
+.mercury,
+.mercury2 {
     position: fixed;
     z-index: 3;
     font-family: gin;
@@ -1568,7 +1631,7 @@ mercury2 {
     animation: buzz 1s infinite;
 }
 
-mercury2 {
+.mercury2 {
     margin-left: 215px;
 }
 
@@ -1615,31 +1678,49 @@ mercury2 {
     background-color: #F20732;
 }
 
-.charlie {
+#charlie {
     position: fixed;
-    margin-top: 50px;
-    margin-left: 130px;
-    z-index: 1;
+    margin-top: 10px;
+    margin-left: -90px;
+    z-index: 2;
+/*    animation: disappear 20s linear infinite;*/
+    transform: rotate(90deg);
 }
 
 .thought {
     position: fixed;
     margin-left: 50px;
     margin-top: -30px;
-    z-index: 0;
+    z-index: 1;
+     animation: rotate 16s linear infinite;
 }
-
-button {
-    background-color: blue;
-    font-family: helvetica;
+.charlielight, .internet {
+    margin-top: 100px;
+    margin-left: 65px;
+    font-family: acumin pro condensed;
+    font-weight: 700;
+    font-size: 12pt;
     color: white;
-    margin-left: 60px;
-    margin-top: 240px;
-    font-weight: 600;
-    font-size: 18px;
-    position: relative;
-    padding: 1px 10px 3px 10px;
+     z-index: 0;
+    position: fixed;
+}
+@keyframes disappear {
+    30% {
+        margin-top: 50px;
+    }
+    40% {
+        margin-top: 400px;
+    }
+    95% {
+        margin-top: 400px;
+    }
 
+}
+.internet {
+    position: fixed;
+    margin-left: 200px;
+    margin-top: 260px;
+    text-decoration: underline;
 }
 
 /* ----- intense ----- */
@@ -1706,7 +1787,7 @@ reveal {
     margin-top: 298px;
     margin-left: 20px;
     font-size: 20pt;
-    font-family: font-family: vollkorn, serif;
+    font-family: helvetica;
     font-weight: 600;
 
 
@@ -2074,10 +2155,13 @@ reveal {
     font-family: 'Lato';
     opacity: 100%;
 
+<<<<<<< HEAD
+=======
 
 
 
 
+>>>>>>> f357086801c37c77b8260bc63ccb6a79025805a9
 }
 
 /* -----  interaction wildcard 1  ----- */
@@ -2386,6 +2470,17 @@ span {
     letter-spacing: 5px;
 
 }
+button {
+    background-color: blue;
+    font-family: helvetica;
+    color: white;
+    margin-left: 60px;
+    margin-top: 240px;
+    font-weight: 600;
+    font-size: 18px;
+    position: relative;
+    padding: 1px 10px 3px 10px;
 
+}
 
 /* -----  week 2 styles  ----- */

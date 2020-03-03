@@ -23,12 +23,12 @@
 .police {
     position: fixed;
     z-index: 3;
-    color: yellow;
+    color: white;
     font-family: acumin pro;
     font-weight: 600;
-    margin-top: 150px;
+    margin-top: 160px;
     margin-left: 15px;
-    font-size: 14pt;
+    font-size: 13pt;
     line-height: 24px;  
 }
 .policeclick {
@@ -54,13 +54,33 @@
     #NYPD {
         z-index: 8;
         opacity: 100%;
-        color: black;
+        color: white;
         margin-top: 210px;
         position: fixed;
-        background-color: yellow;
-        font-size: 58pt;
+        background-color: transparent;
+        font-size: 64pt;
+        padding-bottom: 0px;
         margin-left: 15px;
+        font-family: acumin pro;
+        font-weight: 600;
+        animation: color 2s linear infinite;
+        border: red;
     }
+@keyframes color {
+    25% {
+        color: red;
+    }
+    50% {
+        color: white;
+    }
+        75% {
+        color: darkblue;
+    }
+    
+    100% {
+        color: white;
+    }
+}
 
 </style>
 
